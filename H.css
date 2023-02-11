@@ -1,0 +1,164 @@
+html{
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+
+@font-face{
+    font-family: 'Ulil',  sans-serif;
+    src: url('/WebDev/Ulil.ttf');
+}
+
+.all{
+    width: 400px;
+    margin: 0 auto;
+    background: rgb(1, 40, 99);
+    padding: 10px 20px 20px 10px ;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+.all:hover{
+    background-color: rgb(2, 12, 127);
+}
+
+
+.sign{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+   
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.newgame{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(1, 40, 99);
+    border: white solid 2px;
+    border-radius: 7px;
+    color: white;
+    font-size: large;
+    width: 160px;
+}
+
+
+.home-score{
+    background-color: rgb(1, 40, 99);
+    max-width: 200px;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.guest-score{
+    background-color: rgb(1, 40, 99);
+    max-width: 200px;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.leader{
+    font-weight: bold;
+    box-shadow: 0px 10px 10px rgb(5, 84, 180);
+}
+
+
+.plus1{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.plus2{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.plus3{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.plus1a{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.plus2a{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.plus3a{
+    background: darkblue;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
